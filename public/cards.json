@@ -1,0 +1,107 @@
+[
+    {
+      "id": 1,
+      "name": "Spaghetti Bolognese",
+      "image": "https://i.ibb.co/crCWnDZ/Rectangle-20170.png",
+      "description": "Classic Italian pasta dish with rich tomato sauce and ground beef.",
+      "ingredients": [
+        "400g spaghetti",
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        
+        "Salt and pepper to taste",
+        "Grated Parmesan cheese for serving"
+      ],
+      "preparing_time": "45 min",
+      "calories": "450 calories"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Tikka Masala",
+      "image": "https://i.ibb.co/NxfF6z4/Rectangle-20170-1.png",
+      "description": "Creamy and flavorful Indian curry dish with marinated chicken.",
+      "ingredients": [
+        "500g chicken breast, diced",
+        "1 cup plain yogurt",
+        "2 tbsp tikka masala paste",
+        "1 onion, chopped",
+       
+        
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "preparing_time": "50 min",
+      "calories": "380 calories"
+    },
+    {
+      "id": 3,
+      "name": "Caesar Salad",
+      "image": "https://i.ibb.co/crCWnDZ/Rectangle-20170.png",
+      "description": "Classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+      "ingredients": [
+        "1 head romaine lettuce, chopped",
+        "1 cup croutons",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 cup Caesar dressing",
+       
+        "2 anchovy fillets (optional)",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "15 min",
+      "calories": "250 calories"
+    },
+    {
+      "id": 4,
+      "name": "Vegetable Stir Fry",
+      "image": "https://i.ibb.co/NxfF6z4/Rectangle-20170-1.png",
+      "description": "Healthy and colorful stir-fried vegetables with a savory sauce.",
+      "ingredients": [
+        "2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "2 cloves garlic, minced",
+
+        "1/4 cup vegetable broth",
+        "Cooked rice for serving"
+      ],
+      "preparing_time": "20 min",
+      "calories": "200 calories"
+    },
+    {
+      "id": 5,
+      "name": "Mushroom Risotto",
+      "image": "https://i.ibb.co/crCWnDZ/Rectangle-20170.png",
+      "description": "Creamy Italian rice dish cooked with mushrooms, onions, and Parmesan cheese.",
+      "ingredients": [
+        "1 cup Arborio rice",
+        "2 cups mushrooms, sliced",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        
+        
+        "2 tbsp butter",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "35 min",
+      "calories": "320 calories"
+    },
+    {
+      "id": 6,
+      "name": "Banana Pancakes",
+      "image": "https://i.ibb.co/NxfF6z4/Rectangle-20170-1.png",
+      "description": "Fluffy pancakes made with ripe bananas and served with maple syrup.",
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "1 ripe banana, mashed",
+        "1 cup milk",
+        "1 egg",
+       
+        "Butter or oil for cooking",
+        "Maple syrup for serving"
+      ],
+      "preparing_time": "25 min",
+      "calories": "280 calories"
+    }
+  ]
+  

@@ -1,0 +1,11 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* By default, one column for small devices */
+    gap: 40px;
+}
+
+@media (min-width: 600px) { /* Medium devices and above (MD) */
+    .card-container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for medium devices */
+    }
+}
