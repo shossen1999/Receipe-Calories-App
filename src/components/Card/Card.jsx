@@ -6,7 +6,7 @@ const Card = ({ card, handleCart }) => {
     // console.log(card)
     const { name, image, description, ingredients, preparing_time, calories } = card;
     return (
-        <div className='mb-10'>
+        <div className='mb-10 font-lexend'>
 
 
             {/* card */}
@@ -16,14 +16,14 @@ const Card = ({ card, handleCart }) => {
                 </figure>
                 <div className="card-body">
                     <h4 className="text-[20px] font-semibold">{name}</h4>
-                    <p className="text-[14px] text-[#878787]">{description}</p>
+                    <p className="text-[14px] font-fireSans text-[#878787]">{description}</p>
 
                     <hr />
 
                     <h5 className="text-[18px]">Ingredients : {ingredients.length}</h5>
                     <ol>
                         {ingredients.map((ingredient, index) => (
-                            <li className='text-[14px] text-[#878787]' key={index}>{ingredient}</li>
+                            <li className='text-[14px] font-fireSans text-[#878787]' key={index}>{ingredient}</li>
                         ))}
                     </ol>
 

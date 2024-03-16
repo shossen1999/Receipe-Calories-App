@@ -4,7 +4,7 @@ import icon from '../../assets/images/Frame (7).png'
 
 const Header = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto font-lexend'>
              <div className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">

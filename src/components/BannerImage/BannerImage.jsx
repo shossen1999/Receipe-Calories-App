@@ -2,7 +2,7 @@ import bannerImg from '../../assets/images/banner.png';
 
 const BannerImage = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto font-lexend '>
             <div className="hero h-[600px] rounded-[24px]" style={{backgroundImage: `url(${bannerImg})`}}>
       <div className=""></div>
       <div className="hero-content text-center text-neutral-content">
