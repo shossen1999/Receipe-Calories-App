@@ -65,7 +65,7 @@ const Cooks = ({ cooks, handleDelete, currentlyCooking }) => {
                     </div>
                     <div>
                         <p>Total Calories= </p>
-                        <p>{totalCaloriesCurrentlyCooking}calories</p>
+                        <p>{totalCaloriesCurrentlyCooking} calories</p>
                     </div>
                 </div>
 

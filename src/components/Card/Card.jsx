@@ -6,10 +6,10 @@ const Card = ({ card, handleCart }) => {
     const { name, image, description, ingredients, preparing_time, calories } = card;
 
     return (
-        <div className='mb-10 font-lexend ml-4 mr-4'>
+        <div className='mb-10 font-lexend ml-6 mr-6 md:ml-2 md:mr-2'>
 
             {/* card */}
-            <div className="border-[#282828] border-opacity-[20%] rounded-[16px] border-2 p-4 md:p-8 md:w-96 bg-base-100 shadow-xl">
+            <div className="card border-[#282828] border-opacity-[20%] rounded-[16px] border-2 p-4 md:p-8 md:w-96 bg-base-100 shadow-xl">
                 <figure>
                     <img className='w-full rounded-[16px]' src={image} alt="" />
                 </figure>
