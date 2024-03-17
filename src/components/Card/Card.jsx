@@ -29,7 +29,7 @@ const Card = ({ card, handleCart }) => {
 
 
 
-                    <div className='flex text-[#878787]'>
+                    <div className='flex my-4 text-[#878787]'>
                         <div className="flex-1 flex items-center gap-2">
                             <div className="">
                                 <img src={clock} alt="" />
