@@ -16,15 +16,13 @@ const Cooks = ({ cooks, handleDelete, currentlyCooking }) => {
 
 
     return (
-        <div className="md:w-1/3 border-2 rounded-xl overflow-hidden">
+        <div className="md:w-1/3 border-2 border-[#282828] ml-4 mr-4 md:ml-0 md:mr-0 border-opacity-[20%] rounded-xl overflow-hidden">
             {/* Want to Cook Section */}
             <h3 className="text-4xl font-lexend border-b-2 p-8">Want to Cook : {cooks.length}</h3>
             <div className="flex bg-white font-fireSans  items-center mt-4 text-[#878787]">
-
-               
-                <h5 className='ml-14'>name</h5>
-                <h5 className='ml-14'>Time</h5>
-                <h5 className='ml-12'>Calories</h5>
+                <h5 className='md:ml-14 ml-24'>name</h5>
+                <h5 className='md:ml-14 ml-24'>Time</h5>
+                <h5 className='md:ml-12 ml-16'>Calories</h5>
                 
 
 
@@ -42,9 +40,9 @@ const Cooks = ({ cooks, handleDelete, currentlyCooking }) => {
                 <div className="flex bg-white font-fireSans  items-center  mt-4 text-[#878787]">
 
                
-                <h5 className='ml-20'>name</h5>
-                <h5 className='ml-20'>Time</h5>
-                <h5 className='ml-20'>Calories</h5>
+                <h5 className='md:ml-20 ml-36'>name</h5>
+                <h5 className='md:ml-20 ml-28'>Time</h5>
+                <h5 className='md:ml-20 ml-24'>Calories</h5>
                 
 
 
@@ -60,7 +58,7 @@ const Cooks = ({ cooks, handleDelete, currentlyCooking }) => {
                     ))
                 }
 
-                <div className="flex justify-end font-lexend gap-4 p-4 mt-4 bg-white rounded-[16px] font-semibold text-[#282828]">
+                <div className="flex justify-end font-lexend gap-4 p-4 mt-4 bg-white rounded-[16px] font-semibold text-[#282828] opacity-[80%]">
                     <div>
                         <p>Total Time= </p>
                         <p>{totalPrepTimeCurrentlyCooking} minutes</p>

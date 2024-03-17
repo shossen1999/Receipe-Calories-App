@@ -52,12 +52,12 @@ function App() {
       <ToastContainer />
       <Header></Header>
       <BannerImage></BannerImage>
-      <div className=' max-w-7xl mx-auto mt-10 font-lexend'>
+      <div className=' max-w-7xl mx-auto mt-20 font-lexend'>
         <div className='text-center space-y-4'>
-        <h3 className="text-4xl">Our Recipes</h3>
-        <p className='text-[14px] w-2/3 mx-auto font-fireSans text-[#878787]'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+        <h3 className="text-4xl font-semibold">Our Recipes</h3>
+        <p className='text-[14px] w-2/3 mx-auto  text-[#878787]'>Recipes with higher calorie counts may provide more energy but should be consumed in moderation to prevent excess calorie intake.When planning meals, its important to consider the caloric value of each recipe . </p>
         </div>
-        <div className='flex flex-col md:flex-row'>
+        <div className='flex flex-col md:flex-row mt-10'>
         <Cards
           handleCart={handleCart}
         ></Cards>
