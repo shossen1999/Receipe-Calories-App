@@ -3,7 +3,7 @@ import './BannerImage.css'
 const BannerImage = () => {
     return (
         <div className='max-w-7xl mx-auto font-lexend '>
-            <div className="hero h-[600px] m-4 md:m-0  rounded-[24px]" style={{backgroundImage: `url(${bannerImg})`}}>
+            <div className="hero h-[600px] rounded-[24px]" style={{backgroundImage: `url(${bannerImg})`}}>
       <div className=""></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-4xl">
