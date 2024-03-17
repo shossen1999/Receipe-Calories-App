@@ -37,7 +37,7 @@
     {
       "id": 3,
       "name": "Caesar Salad",
-      "image": "https://i.ibb.co/crCWnDZ/Rectangle-20170.png",
+      "image": "https://i.ibb.co/5kCBWZz/salad.png",
       "description": "Classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
       "ingredients": [
         "1 head romaine lettuce, chopped",
@@ -54,7 +54,7 @@
     {
       "id": 4,
       "name": "Vegetable Stir Fry",
-      "image": "https://i.ibb.co/NxfF6z4/Rectangle-20170-1.png",
+      "image": "https://i.ibb.co/TMPSntt/Stir-Fry-Vegetables-1.png",
       "description": "Healthy and colorful stir-fried vegetables with a savory sauce.",
       "ingredients": [
         "2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)",
@@ -71,7 +71,7 @@
     {
       "id": 5,
       "name": "Mushroom Risotto",
-      "image": "https://i.ibb.co/crCWnDZ/Rectangle-20170.png",
+      "image": "https://i.ibb.co/mqw9BM0/mashroom-1.png",
       "description": "Creamy Italian rice dish cooked with mushrooms, onions, and Parmesan cheese.",
       "ingredients": [
         "1 cup Arborio rice",
@@ -89,7 +89,7 @@
     {
       "id": 6,
       "name": "Banana Pancakes",
-      "image": "https://i.ibb.co/NxfF6z4/Rectangle-20170-1.png",
+      "image": "https://i.ibb.co/6B8vVB5/banana-1.png",
       "description": "Fluffy pancakes made with ripe bananas and served with maple syrup.",
       "ingredients": [
         "1 cup all-purpose flour",

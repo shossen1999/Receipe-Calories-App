@@ -16,14 +16,14 @@ function App() {
   const [currentlyCooking, setCurrentlyCooking] = useState([]);
 
   const handleDelete = (id) => {
-    // to remove something we need to use 'filter'
-    const newCooks=cooks.filter(item=>item.id != id)
+  
+    const newCooks = cooks.filter(item => item.id != id)
     setCooks(newCooks);
 
     const deletedRecipe = cooks.find(item => item.id === id);
     if (deletedRecipe) {
-        // Add the deleted recipe to the Currently Cooking table
-        setCurrentlyCooking(prevState => [...prevState, deletedRecipe]);
+      
+      setCurrentlyCooking(prevState => [...prevState, deletedRecipe]);
     }
   }
 
@@ -52,16 +52,22 @@ function App() {
       <ToastContainer />
       <Header></Header>
       <BannerImage></BannerImage>
-      <div className='flex flex-col md:flex-row max-w-7xl mx-auto mt-10 '>
+      <div className=' max-w-7xl mx-auto mt-10 font-lexend'>
+        <div className='text-center space-y-4'>
+        <h3 className="text-4xl">Our Recipes</h3>
+        <p className='text-[14px] w-2/3 mx-auto font-fireSans text-[#878787]'>Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget urna volutpat curabitur elementum mauris aenean neque. </p>
+        </div>
+        <div className='flex flex-col md:flex-row'>
         <Cards
           handleCart={handleCart}
         ></Cards>
         <Cooks
-        currentlyCooking={currentlyCooking}
+          currentlyCooking={currentlyCooking}
           handleDelete={handleDelete}
           cooks={cooks}>
 
         </Cooks>
+        </div>
       </div>
 
     </>

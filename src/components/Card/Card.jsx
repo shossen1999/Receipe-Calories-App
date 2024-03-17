@@ -12,7 +12,7 @@ const Card = ({ card, handleCart }) => {
             {/* card */}
             <div className="card  p-8  md:w-96 bg-base-100 shadow-xl">
                 <figure>
-                    <img className='w-full' src={image} alt="" />
+                    <img className='w-full rounded-[16px]' src={image} alt="" />
                 </figure>
                 <div className="card-body">
                     <h4 className="text-[20px] font-semibold">{name}</h4>
@@ -21,11 +21,11 @@ const Card = ({ card, handleCart }) => {
                     <hr />
 
                     <h5 className="text-[18px]">Ingredients : {ingredients.length}</h5>
-                    <ol>
+                   
                         {ingredients.map((ingredient, index) => (
                             <li className='text-[14px] font-fireSans text-[#878787]' key={index}>{ingredient}</li>
                         ))}
-                    </ol>
+                   
 
 
 
